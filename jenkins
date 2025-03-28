@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "sharath198/springboot-app-extapi"
+        DOCKER_IMAGE = "harinivaashk664/springboot-app-extapi"
         K8S_DEPLOYMENT = "springboot-app"
         K8S_NAMESPACE = "default"
         DOCKER_USERNAME = "harinivaashk664"
@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/9182029380/springboot--ext-api-resttemplete.git'
+                git branch: 'main', url: 'https://github.com/Harinivaashk/Pipeline.git'
             }
         }
 
