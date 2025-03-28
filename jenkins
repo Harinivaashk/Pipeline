@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "harinivaashk664/springboot-app-extapi"
+        DOCKER_IMAGE = "harinivaashk6640/springboot-app-extapi"
         K8S_DEPLOYMENT = "springboot-app"
         K8S_NAMESPACE = "default"
-        DOCKER_USERNAME = "harinivaashk664"
+        DOCKER_USERNAME = "harinivaashk6640"
         DOCKER_PASSWORD = "hari@123NIvaash"  // ⚠️ (Security Risk! Use Jenkins Credentials Instead)
     }
 
